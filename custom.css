@@ -1,0 +1,49 @@
+/* Fix teks muted & total biar kebaca di dark */
+body.dark .text-muted,
+body.dark .small.text-muted,
+body.dark .kelola-admin-total{
+  color: rgba(255,255,255,.70) !important;
+}
+
+body.dark .table-responsive{
+  background: rgba(255,255,255,.03);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+body.dark .table{
+  color: rgba(255,255,255,.92);
+}
+
+body.dark .table thead th{
+  background: rgba(255,255,255,.05);
+  color: rgba(255,255,255,.72);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+body.dark .table tbody td{
+  border-top: 1px solid rgba(255,255,255,.06);
+}
+
+body.dark .table tbody tr:hover{
+  background: rgba(255,255,255,.04);
+}
+body.dark .text-muted,
+body.dark .kelola-admin-total{
+  color: rgba(255,255,255,.7)!important;
+}
+body.dark .total-admin{
+  color: #fff!important;
+}
+
+body.dark .kelola-admin-total,
+body.dark .kelola-admin-total *{
+  color: rgba(255,255,255,.92) !important;
+}
+
+body.dark .kelola-admin-total{
+  opacity: 1 !important;
+  text-shadow: 0 1px 0 rgba(0,0,0,.35);
+}
+
